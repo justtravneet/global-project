@@ -16,10 +16,10 @@ const Template = () => {
            <div className='d-flex arrow' style={{gap:"390px"}}>
                 <div style={{marginTop:"20px",color:"black"}} className='d-flex'>
                 <ChevronLeft /> 
-                <p style={{fontSize:"19px"}}>Previous</p>
+                <p style={{fontSize:"18px" , fontFamily:"sans-serif"}}>Previous</p>
                 </div>
                 <div style={{marginTop:"20px",color:"black"}} className='d-flex'>
-                <p style={{fontSize:"18px"}}>Next</p>
+                <p style={{fontSize:"18px", fontFamily:"sans-serif"}}>Next</p>
                 <ChevronRight /> 
                 </div>
            </div>
@@ -34,6 +34,14 @@ const Template = () => {
                 <div style={{color:"#494e52", fontSize:"13px", fontFamily:"sans-serif"}}>
                   <p style={{marginLeft:"25px",marginTop:"25px"}}>10th Dec 2024 | lecture by Mukta <br /> soni</p>
                 </div>
+           </div>
+
+           <div>
+               <ul style={{display:"flex", listStyle:"none", gap:"30px", padding:"10px", marginLeft:"15px", marginTop:"30px"}}>
+                   <li style={{fontSize:"20px"}} >Overview</li>
+                   <li style={{color:"blue", fontSize:"20px"}}>Resources</li>
+                   <li style={{color:"blue" , fontSize:"20px"}}>Notes</li>
+               </ul>
            </div>
            
 
